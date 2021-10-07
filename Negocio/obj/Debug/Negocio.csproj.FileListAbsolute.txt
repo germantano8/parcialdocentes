@@ -1,0 +1,11 @@
+D:\Facultad\TanoGerman\Tano\Negocio\bin\Debug\Negocio.dll
+D:\Facultad\TanoGerman\Tano\Negocio\bin\Debug\Negocio.pdb
+D:\Facultad\TanoGerman\Tano\Negocio\bin\Debug\Datos.dll
+D:\Facultad\TanoGerman\Tano\Negocio\bin\Debug\Entidades.dll
+D:\Facultad\TanoGerman\Tano\Negocio\bin\Debug\Datos.pdb
+D:\Facultad\TanoGerman\Tano\Negocio\bin\Debug\Datos.dll.config
+D:\Facultad\TanoGerman\Tano\Negocio\bin\Debug\Entidades.pdb
+D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.dll
+D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.pdb

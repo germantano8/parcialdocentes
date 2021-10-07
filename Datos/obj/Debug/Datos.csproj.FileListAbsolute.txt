@@ -1,0 +1,9 @@
+D:\Facultad\TanoGerman\Tano\Datos\bin\Debug\Datos.dll.config
+D:\Facultad\TanoGerman\Tano\Datos\bin\Debug\Datos.dll
+D:\Facultad\TanoGerman\Tano\Datos\bin\Debug\Datos.pdb
+D:\Facultad\TanoGerman\Tano\Datos\bin\Debug\Entidades.dll
+D:\Facultad\TanoGerman\Tano\Datos\bin\Debug\Entidades.pdb
+D:\Facultad\TanoGerman\Tano\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\Facultad\TanoGerman\Tano\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\Facultad\TanoGerman\Tano\Datos\obj\Debug\Datos.dll
+D:\Facultad\TanoGerman\Tano\Datos\obj\Debug\Datos.pdb
