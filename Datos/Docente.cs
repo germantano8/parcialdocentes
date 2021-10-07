@@ -63,17 +63,17 @@ namespace Datos
             comando.Parameters.AddWithValue("@salario", docente.Salario);
 
             comando.ExecuteNonQuery();
-
+            
             conexion.Close();
         }
 
         public Entidades.Docente RecuperarUno(string cuil)
         {
-            List<Entidades.Docente> docentes = new List<Entidades.Docente>();
+            List<Entidades.Docente> docentes = RecuperarTodos();
 
             Entidades.Docente docente = new Entidades.Docente();
 
-            docente = docentes.First(d => d.Cuil == cuil);
+            docente = docentes.FirstOrDefault(d => d.Cuil == cuil);
 
             return docente;
         }

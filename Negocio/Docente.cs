@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
+using System.Text.RegularExpressions;
 
 namespace Negocio
 {
@@ -18,8 +19,25 @@ namespace Negocio
 
         static public Entidades.Docente RecuperarUno(string cuil)
         {
-            Datos.Docente datosDocente = new Datos.Docente();
-            return datosDocente.RecuperarUno(cuil);
+            if (esCuilValido(cuil)) 
+            {
+                Datos.Docente datosDocente = new Datos.Docente();
+                return datosDocente.RecuperarUno(cuil);
+            }
+
+            throw new Exception("El cuil es inválido");
+        }
+
+        static public bool esCuilValido(string cuil)
+        {            
+            string patron = "^(20|27|30)([0-9]{9})$";
+
+            if (Regex.IsMatch(cuil, patron))
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }

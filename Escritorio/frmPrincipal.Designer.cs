@@ -30,8 +30,8 @@ namespace Escritorio
         private void InitializeComponent()
         {
             this.btnListar = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
+            this.btnAgregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnListar
@@ -44,15 +44,6 @@ namespace Escritorio
             this.btnListar.UseVisualStyleBackColor = true;
             this.btnListar.Click += new System.EventHandler(this.btnListar_Click);
             // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(193, 50);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(103, 39);
-            this.btnAgregar.TabIndex = 1;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
             // btnBuscar
             // 
             this.btnBuscar.Location = new System.Drawing.Point(354, 50);
@@ -61,6 +52,16 @@ namespace Escritorio
             this.btnBuscar.TabIndex = 2;
             this.btnBuscar.Text = "Buscar por CUIL";
             this.btnBuscar.UseVisualStyleBackColor = true;
+            this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
+            // 
+            // btnAgregar
+            // 
+            this.btnAgregar.Location = new System.Drawing.Point(193, 50);
+            this.btnAgregar.Name = "btnAgregar";
+            this.btnAgregar.Size = new System.Drawing.Size(103, 39);
+            this.btnAgregar.TabIndex = 1;
+            this.btnAgregar.Text = "Agregar";
+            this.btnAgregar.UseVisualStyleBackColor = true;
             // 
             // frmPrincipal
             // 
@@ -79,8 +80,8 @@ namespace Escritorio
         #endregion
 
         private System.Windows.Forms.Button btnListar;
-        private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Button btnAgregar;
     }
 }
 

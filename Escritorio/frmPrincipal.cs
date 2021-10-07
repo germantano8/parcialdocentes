@@ -23,5 +23,12 @@ namespace Escritorio
             
             Listado.Show();
         }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+            frmRecuperar Recuperar = new frmRecuperar();
+
+            Recuperar.Show();
+        }
     }
 }
