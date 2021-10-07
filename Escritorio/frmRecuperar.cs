@@ -23,21 +23,20 @@ namespace Escritorio
 
             Entidades.Docente docente = new Entidades.Docente();
 
-            if (Negocio.Docente.esCuilValido(cuil))
+            try
             {
                 docente = Negocio.Docente.RecuperarUno(cuil);
-                lblId.Text += docente.IdDocente;
-                lblCuil.Text += docente.Cuil;
-                lblNombre.Text += docente.ApellidoNombre;
-                lblEmail.Text += docente.Email;
-                lblSalario.Text += docente.Salario;
-                lblFechaIngreso.Text += docente.FechaIngreso;
-                lblAntiguedad.Text += docente.Antiguedad;
-            }
-            else
+                lblId.Text = $"ID: {docente.IdDocente}";
+                lblCuil.Text = $"Cuil: {docente.Cuil}";
+                lblNombre.Text = $"Nombre: {docente.ApellidoNombre}";
+                lblEmail.Text = $"Email: {docente.Email}";
+                lblSalario.Text = $"Salario: {docente.Salario}";
+                lblFechaIngreso.Text = $"Fecha de ingreso: {docente.FechaIngreso}";
+                lblAntiguedad.Text = $"Antiguedad: {docente.Antiguedad} años";
+            }catch(Exception ex)
             {
-                MessageBox.Show("El cuil es invalido");
+                MessageBox.Show(ex.Message);
             }
         }
-    }
+    }// 27890765
 }

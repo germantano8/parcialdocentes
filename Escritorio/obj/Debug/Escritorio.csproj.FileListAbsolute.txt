@@ -17,3 +17,4 @@ D:\Facultad\TanoGerman\Tano\Escritorio\obj\Debug\Escritorio.csproj.CoreCompileIn
 D:\Facultad\TanoGerman\Tano\Escritorio\obj\Debug\Escritorio.exe
 D:\Facultad\TanoGerman\Tano\Escritorio\obj\Debug\Escritorio.pdb
 D:\Facultad\TanoGerman\Tano\Escritorio\obj\Debug\Escritorio.frmRecuperar.resources
+D:\Facultad\TanoGerman\Tano\Escritorio\obj\Debug\Escritorio.csproj.CopyComplete

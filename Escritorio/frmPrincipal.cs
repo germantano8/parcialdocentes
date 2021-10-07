@@ -28,7 +28,7 @@ namespace Escritorio
         {
             frmRecuperar Recuperar = new frmRecuperar();
 
-            Recuperar.Show();
+            Recuperar.ShowDialog();
         }
     }
 }

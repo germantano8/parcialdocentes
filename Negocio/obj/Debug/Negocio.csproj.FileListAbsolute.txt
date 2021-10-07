@@ -9,3 +9,4 @@ D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.c
 D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
 D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.dll
 D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.pdb
+D:\Facultad\TanoGerman\Tano\Negocio\obj\Debug\Negocio.csproj.CopyComplete

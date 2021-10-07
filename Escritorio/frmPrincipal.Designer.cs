@@ -31,7 +31,6 @@ namespace Escritorio
         {
             this.btnListar = new System.Windows.Forms.Button();
             this.btnBuscar = new System.Windows.Forms.Button();
-            this.btnAgregar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnListar
@@ -46,7 +45,7 @@ namespace Escritorio
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(354, 50);
+            this.btnBuscar.Location = new System.Drawing.Point(203, 50);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(103, 39);
             this.btnBuscar.TabIndex = 2;
@@ -54,22 +53,12 @@ namespace Escritorio
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
-            // btnAgregar
-            // 
-            this.btnAgregar.Location = new System.Drawing.Point(193, 50);
-            this.btnAgregar.Name = "btnAgregar";
-            this.btnAgregar.Size = new System.Drawing.Size(103, 39);
-            this.btnAgregar.TabIndex = 1;
-            this.btnAgregar.Text = "Agregar";
-            this.btnAgregar.UseVisualStyleBackColor = true;
-            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(517, 151);
+            this.ClientSize = new System.Drawing.Size(377, 141);
             this.Controls.Add(this.btnBuscar);
-            this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.btnListar);
             this.Name = "frmPrincipal";
             this.Text = "Principal";
@@ -81,7 +70,6 @@ namespace Escritorio
 
         private System.Windows.Forms.Button btnListar;
         private System.Windows.Forms.Button btnBuscar;
-        private System.Windows.Forms.Button btnAgregar;
     }
 }
 

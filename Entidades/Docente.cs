@@ -19,7 +19,7 @@ namespace Entidades
         {
             get 
             {
-                return DateTime.Today.Subtract(FechaIngreso).Days;
+                return DateTime.Today.Year - FechaIngreso.Year;
             }
         }
 
