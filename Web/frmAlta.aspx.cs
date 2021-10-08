@@ -21,6 +21,7 @@ namespace Web
             txtEmail.Text = "";
             txtNombre.Text = "";
             txtSalario.Text = "";
+            lblConfirma.Text = "";
         }
 
         protected void btnGuardar_Click(object sender, EventArgs e)
